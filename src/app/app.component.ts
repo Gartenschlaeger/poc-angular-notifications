@@ -11,8 +11,15 @@ export class AppComponent {
 
     constructor(private notificationsService: NotificationsService) {}
 
-    onSend() {
-        console.log('onSend')
-        this.notificationsService.error('test 123')
+    onSendInfo() {
+        this.notificationsService.info('Das ist ein Test !!!')
+    }
+
+    onSendWarning() {
+        this.notificationsService.warning('Das ist ein Test !!!')
+    }
+
+    onSendError() {
+        this.notificationsService.error('Das ist ein Test !!!')
     }
 }

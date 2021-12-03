@@ -2,4 +2,23 @@
 
 <app-notifications></app-notifications>
 
-<button (click)="onSend()" class="rounded bg-gray-100 hover:bg-gray-200 text-gray-800 px-3 py-2">Send</button>
+<div class="space-x-2">
+    <button
+        (click)="onSendInfo()"
+        class="rounded bg-gray-100 hover:bg-gray-200 text-gray-800 px-3 py-2"
+    >
+        Info
+    </button>
+    <button
+        (click)="onSendWarning()"
+        class="rounded bg-gray-100 hover:bg-gray-200 text-gray-800 px-3 py-2"
+    >
+        Warning
+    </button>
+    <button
+        (click)="onSendError()"
+        class="rounded bg-gray-100 hover:bg-gray-200 text-gray-800 px-3 py-2"
+    >
+        Error
+    </button>
+</div>
