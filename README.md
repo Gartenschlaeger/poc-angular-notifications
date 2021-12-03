@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PocAngularServiceEmit
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.8.
@@ -29,3 +30,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # Sources
 
 -   https://jasonwatmore.com/post/2019/07/05/angular-8-alert-toaster-notifications
+=======
+# poc-angular-notifications
+POC project for a reusable notifications module.
+>>>>>>> 06c5a7d54f2874ba225a5ebb1537ab38c4ca7298
